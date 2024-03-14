@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #272626;
+    color: white;
+    padding: 0.1%;
+    overflow: hidden;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.logo{
+    float: left;
+}
+
+.logo h1{
+    display: inline-block;
+    font-weight: normal;
+}
+
+.logo span{
+    color: orange;
+}
+
+.logo img{
+    width: 6%;
+    margin-left: 8%;
+}
+
+.mainmenu{
+    float: right;
+    margin-top: 1%;
+}
+
+.mainmenu ul{
+    list-style: none;
+    text-align: right;
+}
+
+.mainmenu li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.mainmenu a{
+    text-decoration: none;
+    color: white;
+ 
+}
+
+a:hover{
+   color: orange;
+}

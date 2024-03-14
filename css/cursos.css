@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maincontainer{
+    font-family: Arial
+}
+
+.cabecera{
+    border-top: black solid 1.5px;
+    border-bottom: black solid 1.5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 1.5%;
+}
+
+.cabecera h1{
+    text-align: center;
+    font-style: italic;
+}
+
+.iconoCurso1 img{
+    float: left;
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 4%;
+}
+
+.descripcionCurso1 h3{
+    margin-top: 0.5%;
+}
+
+.descripcionCurso1 p{
+    margin-top: 1%;
+    margin-right: 2%;   
+}
+
+.descripcionCurso2 h3{
+    margin-top: 0.5%;
+}
+
+.descripcionCurso2 p{
+    margin-top: 1%;
+    margin-right: 2%;   
+}
+
+button{
+    margin-top: 1%;
+    border-radius: 20px;
+    background-color:lightgray;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 10%;
+    float: right;
+    margin-right: 2%;
+}
+
+.leerMas{
+    width: 15%;
+}
+
+button:hover{
+    background-color: #272626;
+}
+
+button:active{
+    transform: translateY(4px);
+}
+
+.articulo{
+    overflow: hidden;
+}
+
+.descripcionCurso2 {
+    width: 63%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2.5%;
+}
+
+.iconoCurso2 img {
+    width: 30%;
+    float: right;
+    margin-right: 2%;
+  }

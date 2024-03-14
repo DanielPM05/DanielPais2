@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maincontainer{
+    font-family: Arial
+}
+.imagen{
+    background-image: url('../img/Carroussel/Carroussel-1.webp');
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center 90%;
+    padding: 12%;
+
+}
+    
+.imagen p{
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 250%;
+}
+
+.articulo img{
+    width: 15%;
+    float: right;
+    margin-right: 2.25%;
+    margin-top: 1%;
+}
+
+.descripcion{
+    float: left;
+    width: 40%;
+    margin-left: 2.5%;
+    margin-top: 3%;
+}
+
+.comprar{
+    background-color: #272626;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: bold;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.comprar:hover{
+    color: #272626;
+    background-color: orange;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.imagen p::before{
+    content: 'Lorem';
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+    position: relative;
+}
+.imagen p::after{
+    content: 'Dolor';
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+    position: relative;
+}
+.separacion{
+    border-bottom: black solid 1.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

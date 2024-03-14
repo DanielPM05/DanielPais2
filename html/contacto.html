@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALLSHOES</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/Logos/Logo.png">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="../img/Logos/Logo.png">
+            <h1>ALL<span>SHOES</span></h1>
+        </div>
+        <div class="mainmenu">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="sobreNosotros.html">SOBRE NOSOTROS</a></li>
+                <li><a href="cursos.html">CURSOS</a></li>
+                <li><a href="tienda.html">TIENDA</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="maincontainer">
+        <div class="cabecera">
+            <h1>CONTACTO</h1>
+        </div>
+        <div class="section">
+            <div class="informacion">
+                <h1>¿TIENES ALGUNA DUDA?</h1>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ducimus voluptas, labore explicabo
+                    provident optio animi ipsa esse consequatur odit enim a, vero iste repudiandae itaque rem neque quod
+                    possimus mollitia quam voluptate quasi repellat aut Aperiam.</p>
+                <h3>E-mail:</h3>
+                <p class="email">info@allshoes.es</p>
+                <h3>Redes Sociales:</h3>
+                <div class="redes">
+                    <img class="logoRedes" src="../img/Logos/Logo.png"></img>
+                    <a href="https://web.telegram.org/" target="_blank">
+                        <img class="telegram iconoRedes" src="../img/RedesSociales/telegram-icon.png" >
+                    </a>
+                    <a href="https://web.whatsapp.com/" target="_blank">
+                        <img class="whatsapp iconoRedes" src="../img/RedesSociales/whatsapp-logo.png">
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <img class="twitter iconoRedes" src="../img/RedesSociales/twitter-icon.png">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img class="instagram iconoRedes" src="../img/RedesSociales/instagram-logo.png">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class="facebook iconoRedes" src="../img/RedesSociales/facebook-icon.png">
+                    </a>        
+                </div>
+            </div>
+            <div class="formulario">
+                <form name="formulario" method="post" action="contacto.php">
+                    <div>
+                        <label for="nombre"></label>
+                        <input type="text" name="nombre" id="nombre" placeholder="NOMBRE" required>
+                    </div>
+                    <div>
+                        <label for="correo"></label>
+                        <input type="email" name="correo" id="correo" placeholder="CORREO (CORREO@EMAIL.COM)" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                    </div>
+                    <div>
+                        <label for="telefono"></label>
+                        <input type="tel" id="telefono" name="telefono" pattern="\+34 [0-9]{3} [0-9]{3} [0-9]{3}" placeholder="TELÉFONO (+34 XXX XXX XXX)" required>
+                    </div>
+                    <div>
+                        <label for="tema"></label>
+                        <select id="tema" name="tema">
+                            <option value="opcion1">TEMA</option>
+                            <option value="opcion2">Error con el pago</option>
+                            <option value="opcion3">Tarjeta bloqueada</option>
+                            <option value="opcion4">Otro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <textarea cols="40" rows="5" name="Mensaje" placeholder="MENSAJE"></textarea>
+                    </div>
+                    <div>
+                        <p><input type="checkbox" name="condiciones"/>
+                        Aceptar <a href="">condiciones</a>
+                        </p> 
+                    </div>
+                    <div>
+                        <input class="botonEnviar" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
